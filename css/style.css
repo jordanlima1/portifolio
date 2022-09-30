@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Poppins:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Início do Projeito*/
+
+
+.section-1-bg{
+    background-image: url(../imagens/minha.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+aside{
+    position:absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.icon-menu img{    
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+    margin-right: 15px;   
+    cursor: pointer; 
+}
+
+
+#barra-menu{
+    background-color: #180127 ;
+    height: 92.7vh ;
+    width: 0px;
+    transition: 0.8s all;
+}
+
+#barra-menu ul li{
+    list-style: none;
+    padding: 15px 60px;    
+}
+
+#barra-menu ul li a{   
+    color: #fff;
+    text-decoration: none;
+    font-size:15px ;
+    width: 100%;   
+}
+
+#barra-menu ul li a:hover{
+    border: solid 1px #c229aa;
+    padding: 8px;
+    border-radius: 15px;
+    background: #7601c4;
+}
+
+.c-icon{
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.c-icon span{
+    color: #fbf7f7;    
+}
+
+.c-icon span:hover{
+    transition: 0.2;
+    transform: 0.5;
+    color: #c229aa;
+}
+
+
+.main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    flex-wrap: wrap;
+}
+
+.main-title h1{
+    font-size: 70px;
+    color:#fff;
+    margin-top: 15%;
+    font-family: "Poppins";
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+.main-title h2{
+     color: #d38f99;
+     font-size: 50px;
+     font-family: "Hanuman";
+     font-weight: bold;
+     letter-spacing: 2px;
+}
+
+.main-title h5{
+    color: #fff;
+    font-size: 15px;
+    font-family: "Hanuman";
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.main-title button{
+    width: 12%;
+    margin-top: 80px;
+    padding: 8px 5px;
+    font-size: 20px;
+    background: #ff0000;
+    border-radius: 50px;
+    color: #f6f6fa;
+    font-family: "Inter";
+    cursor: pointer;
+    transition-duration: .9s;
+}
+
+.main-title button:hover{
+    border: solid 1px;
+    color: #fff;
+    transition: 0.7;
+    background: transparent;
+}
+
+.numeros {
+    display: flex;
+    margin-top: 35px ;
+    color: #fff;
+    gap: 40px;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.title h3{
+    font-size: 35px;
+    margin-top: 15px;
+    font-family: "Inter";
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+
+.title p{
+    font-family: "Inter";
+    margin-top:5px;
+    
+    
+}
+
+.title:hover{
+    transition: 1.2;
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 414px) {
+    .main-title h1 {
+        font-size: 35px;
+        margin-top: 70%;
+        margin-right: 100%;
+        
+    }
+
+    
+
+    .main-title h2{
+        font-size: 16px;
+        margin-left: -20%;
+        margin-top: 15%;
+        
+        
+    }
+    .main-title button{
+        width: 130px;
+    }
+    .numeros{
+        margin-right: 100%;
+        margin-top: 40%;
+    }
+    
+}
+
+
+/*Início do Projeito*//*Início do Projeito*//*Início do Projeito*/
+
+
+.c-sobre{
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.image img{
+    width: 400px;
+    height: auto;
+    box-shadow: 4px 4px 4px  #858585, 4px 4px 4px
+}
+
+.Sobre-mim h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.Sobre-mim h4{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Sobre-mim span{
+    color:#fd0bf3;
+}
+
+.Sobre-mim p{
+    
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 55px;
+    padding-left: 90px;
+    padding-bottom: 10px;
+}
+
+.Sobre-mim button{   
+    display: flex;
+    margin-top: 25px;
+    background-color: #ef0453;
+    margin-left: 100px;    
+    text-align: center;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #c229aa, 4px 4px 4px;
+    transition-duration: .9s;
+}
+
+.Sobre-mim button:hover{
+    color: #ef0453;
+    background: transparent;
+    transition: 0.8s;
+}
+
+
+@media screen and (max-width: 414px){
+    .image img{
+        width: 350px;
+        height: auto;
+    }
+
+    .Sobre-mim p{        
+        letter-spacing: 2px;
+        font-size: 15px;
+        text-align: center;        
+    }
+
+    .Sobre-mim button{
+        margin-right: 110px;
+    }
+
+}
+
+
+
+/*Início do Projeito*//*Início do Projeito*//*Início do Projeito*//*Início do Projeito*/
+
+
+.conteiner{
+    width: 100%;
+    background-color: #f3eeee;
+    padding: 50px;
+}
+
+.conteiner h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 12%;
+    
+}
+
+.conteiner p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #685b5b;
+    margin-top: 25px;
+    
+}
+
+.c-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    color: #fffbfb;
+    padding: 50px;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px;
+    margin-top: 25px;
+}
+
+.card img{
+    width: 50px;
+    height: auto;
+
+}
+
+.card h3{
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+
+}
+
+.card h4{
+    color: #beb7b7;
+    font-size: 12px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter
+}
+
+.c-card2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.card:hover{
+    transform: scale(1.2);
+    transition-duration: .5s;
+}
+
+@media screen and (max-width: 414px) {
+    .card{
+        margin-top: 35px;
+    }
+    
+}
+
+
+
+
